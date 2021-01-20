@@ -1,0 +1,94 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #eeeeeeee;
+}
+/* titre */
+.titre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.titre h2 {
+    margin-right: 0.5rem;
+}
+.titre span {
+    height: 2px;
+    background-color: #ddd;
+    width: 100%;
+}
+.titre i {
+    margin-left: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 1rem;
+}
+/***************** NOTIFICATION *****************/
+.notification-block {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    color: #555;
+}
+.notification-block > p {
+    margin-bottom: 20px;
+}
+.notification-block > p > a {
+    text-decoration: none;
+    color: #268ad2;
+}
+.notification-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    margin: 15px 0;
+}
+.notification-content > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.notification-content {
+    display: flex;
+}
+.notification-content > div {
+    margin-left: 20px;
+}
+.notification-content > div > span {
+    font-weight: bold;
+    color: #888;
+    font-size: .8em;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.notification-info {
+    display: flex;
+    flex-direction: row;
+}
+.notification-info > button {
+    display: flex;
+    flex-direction: row;
+    color: #888;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.notification-info > button > i {
+    margin-left: 5px;
+}
