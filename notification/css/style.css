@@ -60,7 +60,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-
+    
 }
 .notification-content {
     display: flex;
@@ -88,6 +88,10 @@ body {
     background-color: transparent;
     cursor: pointer;
     font-size: 1.2rem;
+    display: none;
+}
+.notification-item:hover .notification-info button {
+    display: block;
 }
 .notification-info > button > i {
     margin-left: 5px;

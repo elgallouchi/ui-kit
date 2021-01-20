@@ -27,6 +27,10 @@ header > .container {
 }
 header > .container > h1 {
   color: #fff;
+  border: 1px solid #fff;
+  padding: 0px 10px;
+  border-radius: 5px;
+  transform: rotate(7deg);
 }
 header > .container > nav > ul {
   display: flex;
