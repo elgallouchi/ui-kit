@@ -1,0 +1,81 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #eeeeeeee;
+}
+/* titre */
+.titre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.titre h2 {
+    margin-right: 0.5rem;
+}
+.titre span {
+    height: 2px;
+    background-color: #ddd;
+    width: 100%;
+}
+.titre i {
+    margin-left: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/************* FOOTER **************/
+footer {
+    font-size: 1.5em;
+    color: #888;
+
+}
+footer > .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer > .container > .social-media > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.twitter a, 
+.facebook a, 
+.instagram a, 
+.linkedin a, 
+.github a {
+    color: #888;
+    font-size: 2em;
+    margin: 0 5px;
+    transition: all .2s ease-in-out;
+}
+.twitter a:hover {
+    color: #55acee;
+}
+.facebook a :hover{
+    color: #3b5999;
+}
+.instagram a:hover {
+    color: #e4405f;
+}
+.linkedin a :hover{
+    color: #0077B5;
+}
+.github a:hover {
+    color: #131418;
+}
+footer > .container > p > i {
+    color: #f30;
+}
