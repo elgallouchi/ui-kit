@@ -1,0 +1,78 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #eeeeeeee;
+}
+/* titre */
+.titre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.titre h2 {
+    margin-right: 0.5rem;
+}
+.titre span {
+    height: 2px;
+    background-color: #ddd;
+    width: 100%;
+}
+.titre i {
+    margin-left: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 1rem;
+}
+/***********************************/
+
+section > p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #555;
+}
+section > p > a {
+    text-decoration: none;
+    color: #268ad2;
+}
+.banner {
+    background-image: linear-gradient(#470707c7, #0000008c), url(../img/moto.webp);
+    background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-position: center;
+width: 100%;
+background-position-y: center;
+
+}
+.banner > div {
+    padding: 10%;
+}
+.banner > div > h3 {
+    font-size: 2.5em;
+    color: #fff;
+}
+.banner > div > p {
+    font-size: 1.5em;
+    color: #ccc;
+    margin: 20px 0;
+}
+.banner > div > button {
+    background-color: #20dc88;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
