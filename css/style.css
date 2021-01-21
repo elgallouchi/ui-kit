@@ -25,7 +25,10 @@ header > .container {
   justify-content: space-between;
   align-items: center;
 }
-header > .container > h1 {
+header > .container > a {
+  text-decoration: none;
+}
+header > .container > a > h1 {
   color: #fff;
   border: 1px solid #fff;
   padding: 0px 10px;

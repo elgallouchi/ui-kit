@@ -1,0 +1,85 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #eeeeeeee;
+}
+/* titre */
+.titre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.titre h2 {
+    margin-right: 0.5rem;
+}
+.titre span {
+    height: 2px;
+    background-color: #ddd;
+    width: 100%;
+}
+.titre i {
+    margin-left: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/**************** Header ****************/
+header > p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+header > p > a {
+    text-decoration: none;
+    color: #268ad2;
+}
+header > nav {
+    display: flex;
+}
+header > nav {
+    display: flex;
+    justify-content: space-between;
+}
+header > nav > .logo > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+header > nav > .logo > a > i {
+    font-size: 3em;
+    transform: rotate(90deg);
+    color: #268ad2;
+}
+header > nav > .right-bar {
+    display: flex;
+    align-items: center;
+}
+header > nav > .right-bar > ul {
+    display: flex;
+    list-style: none;
+}
+header > nav > .right-bar > ul > li {
+    padding: 10px;
+}
+header > nav > .right-bar > ul > li > a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #444;
+}
+header > nav > .right-bar > ul > li > a:hover {
+    color: #777;
+}
+header > nav > .right-bar > a > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
