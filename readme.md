@@ -1,6 +1,6 @@
 ## User Inerface KIT
 
-Ce repository est un kit de components html/css à utiliser au besoin :) 
+Ce repository est un kit de composants html/css à utiliser au besoin :) 
 
 ### Les composants inclus :
 
