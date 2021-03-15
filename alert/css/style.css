@@ -1,68 +1,69 @@
-/* reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    padding: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
 }
+
 /* titre */
 .titre {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
 }
 .titre h2 {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 .titre span {
-    height: 2px;
-    background-color: #ddd;
-    width: 100%;
+  height: 2px;
+  background-color: #ddd;
+  width: 100%;
 }
 .titre i {
-    margin-left: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    padding: 1rem;
+  margin-left: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 1rem;
 }
+
 /* alert */
 .alert {
-    position: relative;
-    padding: 20px;
-    border-radius: 0.5rem;
-    border-width: 5px;
-    border-style: solid;
-    font-size: 1.5rem;
-    box-shadow: 0 0 15px 0 #ccc;
-    margin-bottom: 20px;
+  position: relative;
+  padding: 20px;
+  border-radius: 0.5rem;
+  border-width: 5px;
+  border-style: solid;
+  font-size: 1.5rem;
+  box-shadow: 0 0 15px 0 #ccc;
+  margin-bottom: 20px;
 }
-.alert > p > span {
-    font-weight: bold;
+.alert p span {
+  font-weight: bold;
+}
+.alert i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.alert.alert a {
+  text-decoration: none;
+  color: #268ad2;
+}
+.alert.alert-green {
+  border-color: #20dc88;
+}
+.alert.alert-yellow {
+  border-color: #fec65a;
+}
+.alert.alert-red {
+  border-color: #fd1315;
 }
 
-.alert > i {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-}
-.alert a {
-    text-decoration: none;
-    color: #268ad2;
-}
-.alert-green {
-    border-color: #20dc88;
-}
-.alert-yellow {
-    border-color: #fec65a;
-}
-.alert-red {
-    border-color: #fd1315;
-}
-
-
+/*# sourceMappingURL=style.css.map */
