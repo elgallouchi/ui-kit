@@ -1,11 +1,11 @@
-## User Inerface KIT
+# User Inerface KIT
 
-Ce repository est un kit de composants html/css à utiliser au besoin :) 
+Ce repository est un kit de composants html/css à utiliser au besoin :
 
-### Les composants inclus :
+## Les composants inclus
 
-- Alert 
-- Avatar 
+- Alert
+- Avatar
 - Button
 - Card Category
 - Card Product
