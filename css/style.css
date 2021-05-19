@@ -43,6 +43,7 @@ header > .container > nav > ul > li {
   padding: 0 10px;
   border: 1px solid #fff;
   margin-left: .3rem;
+  border-radius: .3rem;
 }
 header > .container > nav > ul > li > a {
   text-decoration: none;
